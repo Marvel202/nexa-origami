@@ -80,7 +80,7 @@ export default function Contact() {
                       Website
                     </h3>
                     <p className="text-neutral-600">
-                      www.nexaorigami.com
+                      https://nexa-origami.vercel.app/
                     </p>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export default function Contact() {
                       Follow Us
                     </h3>
                     <p className="text-neutral-600">
-                      @nexaorigami on all platforms
+                      @nexa.ja on Instagram<br />
                     </p>
                   </div>
                 </div>
