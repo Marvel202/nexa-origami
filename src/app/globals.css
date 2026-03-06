@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8843A3;
+  --color-primary-light: #a865c9;
+  --color-primary-dark: #6b2d85;
+  --color-secondary-blue: #0038A8;
+  --color-secondary-green: #00C853;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-nunito), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-quicksand), sans-serif;
+}
