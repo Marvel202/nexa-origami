@@ -1,0 +1,20 @@
+Product website 
+theme : 
+Mission: Through origami's nostalgic magic, we aim to evok happiness by bringing childhood creativity into everyday space.
+Vision: We envision organisational display pieces, to transform the way people interact with the spaces in their homes through innovativce ;design, bringing sa spot of colour to the users environment.
+Products : 4 items
+target customers : who young vibrant, but loves nostalgic touch
+
+Website Information:
+1. Hero Page:
+  - YouTube promo: https://youtu.be/GGlYl_HvjdQ?si=DdHcXwlk61og1hMz
+   
+2. About Page - Through origami's nostalgic magic, we aim to evok happiness by bringing childhood creativity into everyday space.
+Vision: We envision organisational display pieces, to transform the way people interact with the spaces in their homes through innovativce ;design, bringing sa spot of colour to the users environment.
+
+3. Product Page & order
+- Products (4 items)  Descriptions | Price | 
+
+5.  Contact US: thenexa.ja@gmail.com
+
+6.  Backend: simple database for products & customer list (google spreadsheet or simple json, or postgres)
