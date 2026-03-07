@@ -111,7 +111,7 @@ export default function Products() {
                     src={product.image}
                     alt={product.name}
                     fill
-                    className="object-cover group-hover:scale-105 transition"
+                    className="object-contain group-hover:scale-105 transition"
                   />
                 </div>
                 <div className="p-6">
