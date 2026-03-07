@@ -126,9 +126,7 @@ export default function Products() {
                       ${product.price}
                     </p>
                   </div>
-                  <p className={`text-sm mb-4 ${product.stock > 0 ? 'text-secondary-green' : 'text-red-500'}`}>
-                    {product.stock > 0 ? `In Stock: ${product.stock}` : 'Out of Stock'}
-                  </p>
+
                   <button
                     onClick={() => handleOrderClick(product)}
                     disabled={product.stock === 0}
