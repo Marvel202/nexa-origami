@@ -47,6 +47,12 @@ export default function Navbar() {
               Products
             </Link>
             <Link
+              href="/events"
+              className="text-neutral-600 hover:text-primary transition"
+            >
+              Events
+            </Link>
+            <Link
               href="/contact"
               className="text-neutral-600 hover:text-primary transition"
             >
@@ -100,6 +106,13 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Products
+            </Link>
+            <Link
+              href="/events"
+              className="text-neutral-600 hover:text-primary transition"
+              onClick={() => setIsOpen(false)}
+            >
+              Events
             </Link>
             <Link
               href="/contact"

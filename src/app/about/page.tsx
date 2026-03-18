@@ -24,7 +24,7 @@ export default function About() {
                 Our Mission
               </h2>
               <p className="text-neutral-600 text-lg">
-                To inspire creativity and bring joy through beautifully crafted origami products that celebrate the art form&apos;s rich tradition while embracing modern design. We create pieces that speak to the nostalgic hearts of young, vibrant individuals who appreciate the intersection of tradition and contemporary aesthetics.
+                Through origami's nostalgic magic, we aim to evoke happiness by bringing the joy of childhood creativity into everyday spaces.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ export default function About() {
                 Our Vision
               </h2>
               <p className="text-neutral-600 text-lg">
-                To become the leading brand in origami products worldwide, recognized for our commitment to quality, creativity, and sustainability. We envision a world where origami is celebrated as a form of personal expression and mindfulness, connecting people across cultures and generations.
+                We envision organizational display pieces, to transform the way people interact with the spaces in their homes through innovative design, bringing a spot of colour to the users environment.
               </p>
             </div>
           </div>
