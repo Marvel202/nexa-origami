@@ -94,6 +94,94 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Charity Partnership Section */}
+      <section className="relative py-24 overflow-hidden bg-white">
+        {/* Background texture layers */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute -top-24 -left-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+          <div className="absolute -bottom-24 -right-24 w-[28rem] h-[28rem] bg-red-500/5 rounded-full blur-3xl" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60rem] h-[2px] bg-gradient-to-r from-transparent via-neutral-200 to-transparent" />
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          {/* Section label */}
+          <div className="flex items-center justify-center gap-3 mb-14">
+            <span className="h-px w-12 bg-primary/30" />
+            <span className="font-body text-xs font-semibold uppercase tracking-[0.25em] text-primary/70">
+              Giving Back
+            </span>
+            <span className="h-px w-12 bg-primary/30" />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden shadow-2xl">
+            {/* Clock image panel */}
+            <div className="relative min-h-[420px] bg-neutral-50 group overflow-hidden flex items-center justify-center p-10">
+              {/* Padded image anchor so the full clock is visible */}
+              <div className="relative w-full h-full min-h-[340px]">
+                <Image
+                  src="/Clock.jpeg"
+                  alt="Origami Heart Clock"
+                  fill
+                  className="object-contain group-hover:scale-[1.03] transition-transform duration-700"
+                />
+              </div>
+
+              {/* Product badge */}
+              <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-2xl px-5 py-3 shadow-lg z-10">
+                <p className="font-heading text-sm font-bold text-neutral-900">Origami Heart Clock</p>
+                <p className="font-body text-xs text-primary font-semibold mt-0.5">$150.00</p>
+              </div>
+            </div>
+
+            {/* Charity info panel */}
+            <div className="relative flex flex-col justify-center px-10 py-14 bg-neutral-950">
+              {/* Decorative fold lines */}
+              <div className="absolute top-0 right-0 w-32 h-32 border-t-2 border-r-2 border-white/5 rounded-bl-3xl pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-20 h-20 border-b-2 border-l-2 border-white/5 rounded-tr-3xl pointer-events-none" />
+
+              {/* STC Logo */}
+              <div className="mb-8">
+                <div className="inline-flex items-center bg-white rounded-2xl px-6 py-4 shadow-lg">
+                  <Image
+                    src="/save-the-children-logo.png"
+                    alt="Save the Children"
+                    width={260}
+                    height={68}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+
+              {/* 25% callout */}
+              <div className="flex items-baseline gap-2 mb-5">
+                <span className="font-heading text-7xl font-extrabold text-red-500 leading-none tracking-tight">
+                  25%
+                </span>
+                <span className="font-heading text-2xl font-bold text-white leading-tight">
+                  of profits<br />donated
+                </span>
+              </div>
+
+              <p className="font-body text-neutral-300 text-base leading-relaxed mb-8 max-w-sm">
+                Our partnership with <span className="text-white font-semibold">Save the Children</span> means every Origami Clock sold directly supports children in need. 25% of profits from the Origami Heart Clock go straight to the organisation.
+              </p>
+
+              {/* Divider */}
+              <div className="w-12 h-0.5 bg-red-500 mb-8" />
+
+              <Link
+                href="/products"
+                className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white font-heading font-semibold text-sm px-7 py-3.5 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-red-900/40 w-fit"
+              >
+                Shop the Clock
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
