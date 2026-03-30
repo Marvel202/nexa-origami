@@ -4,7 +4,7 @@ export const products = [
     name: "Origami Heart Clock",
     description: "A heart-shaped origami clock that brings a playful artistic touch to any room. Functional and decorative - a true conversation starter.",
     price: "150.00",
-    image: "/Clock.jpeg",
+    image: "/Clock-new.jpeg",
     stock: 50,
   },
   {

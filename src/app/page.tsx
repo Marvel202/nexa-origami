@@ -115,16 +115,13 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden shadow-2xl">
             {/* Clock image panel */}
-            <div className="relative min-h-[420px] bg-neutral-50 group overflow-hidden flex items-center justify-center p-10">
-              {/* Padded image anchor so the full clock is visible */}
-              <div className="relative w-full h-full min-h-[340px]">
-                <Image
-                  src="/Clock.jpeg"
-                  alt="Origami Heart Clock"
-                  fill
-                  className="object-contain group-hover:scale-[1.03] transition-transform duration-700"
-                />
-              </div>
+            <div className="relative min-h-[480px] bg-neutral-100 group overflow-hidden">
+              <Image
+                src="/Clock-new.jpeg"
+                alt="Origami Heart Clock"
+                fill
+                className="object-cover object-center group-hover:scale-[1.03] transition-transform duration-700"
+              />
 
               {/* Product badge */}
               <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-2xl px-5 py-3 shadow-lg z-10">
